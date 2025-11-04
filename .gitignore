@@ -1,0 +1,78 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.db
+*.sqlite3
+*.log
+
+# Byte-compiled / cache
+*.py[cod]
+*$py.class
+
+# -----------------------------
+# Virtual / Conda Environments
+# -----------------------------
+venv/
+env/
+.venv/
+.env/
+diabetes_env/
+*.conda
+*.env
+*.yml
+*.yaml
+
+# -----------------------------
+# Jupyter & Notebook Stuff
+# -----------------------------
+.ipynb_checkpoints/
+.notebooks/
+notebooks/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# -----------------------------
+# Streamlit & Web Caches
+# -----------------------------
+.streamlit/cache/
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# -----------------------------
+# Data & Models (if large)
+# -----------------------------
+data/*.csv
+data/*.xlsx
+data/*.json
+models/*.h5
+models/*.joblib
+models/*.pkl
+*.zip
+*.tar.gz
+
+# -----------------------------
+# IDE / Editor Config Files
+# -----------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# Build / Distribution
+# -----------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
